@@ -1,7 +1,4 @@
-﻿using System;
-using System.Data;
-
-public class Position(int row, int column) : IPosition
+﻿public class Position(int row, int column) : IPosition
 {
 
     public int Row { get; } = row;

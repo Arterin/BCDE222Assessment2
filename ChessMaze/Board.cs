@@ -1,11 +1,10 @@
 ﻿using ChessMaze.Enums;
-using System;
 
 public class Board : IBoard
 {
     private readonly int rows;
     private readonly int columns;
-    private readonly IPiece[,] cells;
+    private IPiece[,] cells;
 
     public Board(int rows, int columns)
     {

@@ -6,7 +6,7 @@ public interface IGame
     /// <summary>
     /// Gets the current level being played.
     /// </summary>
-    ILevel CurrentLevel { get; }
+    ILevel CurrentLevel { get; set; }
 
     /// <summary>
     /// Loads a specified level into the game.
