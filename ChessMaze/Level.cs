@@ -1,4 +1,6 @@
-﻿public class Level : ILevel
+﻿using ChessMaze.Enums;
+
+public class Level : ILevel
 {
     public IBoard Board { get; }
     public IPosition StartPosition { get; }

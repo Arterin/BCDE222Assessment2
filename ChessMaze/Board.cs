@@ -12,7 +12,7 @@ public class Board : IBoard
         this.columns = columns;
         cells = new IPiece[rows, columns];
 
-        // Initialize all cells to be empty
+        // TODO make board optionally take in a 2d array of pieces so we can give it a starting position ?
         for (int row = 0; row < rows; row++)
         {
             for (int col = 0; col < columns; col++)

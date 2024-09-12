@@ -9,6 +9,13 @@
 
     public void Move(IPosition newPosition, IBoard board)
     {
-        this.CurrentPosition = newPosition;
+        if (CanMove(newPosition, board))
+        {
+            this.CurrentPosition = newPosition;
+        }
+        else
+        {
+            throw new System.Exception("Illegal move");
+        }
     }
 }
